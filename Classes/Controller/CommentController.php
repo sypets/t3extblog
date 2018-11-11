@@ -123,7 +123,6 @@ class CommentController extends AbstractController
      * @param Post    $post       The post the comment is related to
      * @param Comment $newComment
      * @TYPO3\CMS\Extbase\Annotation\IgnoreValidation $newComment
-     * @dontvalidate $newComment
      */
     public function newAction(Post $post, Comment $newComment = null)
     {
